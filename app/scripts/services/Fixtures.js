@@ -30,9 +30,16 @@
              { title: 'Wrong phone number', duration: '2:15' }
          ]
      };
-     
+
       Fixtures.getAlbum = function() {
       return albumPicasso;
+      };
+
+      Fixtures.getCollection = function(numberofAlbums) {
+        for (var array = [], i = 0; i < numberOfAlbums; i++) {
+          array.push({});
+        }
+        return array;
       };
          return Fixtures;
      }
