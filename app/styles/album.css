@@ -40,6 +40,7 @@ body.album {
     margin: 1.5rem auto;
     font-weight: 300;
     font-size: 0.75em;
+    border-collapse: collapse;
 }
 
 .album-view-song-item {
@@ -85,13 +86,17 @@ body.album {
     padding-left: 5px;
 }
 
+.player-bar {
+  opacity: .5;
+}
+
 @media (max-width: 40rem) and (min-width: 20rem) {
     .album-view-details {
         text-align: center;
     }
-    
+
     .album-view-title {
-        margin-top: 0;   
+        margin-top: 0;
     }
 }
 

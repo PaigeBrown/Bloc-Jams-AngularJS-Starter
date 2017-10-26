@@ -3,7 +3,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 150px;
+    height: 200px;
     background: rgba(255, 255, 255, 0.3);
     z-index: 100;
 }
@@ -159,7 +159,7 @@
 
 /* === MOBILE === */
 
-@media (max-width: 40rem) {
+@media (max-width: 640rem) {
     .player-bar {
         padding: 1rem;
         background: rgba(0,0,0,0.6);
@@ -172,9 +172,9 @@
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        text-align: center;   
+        text-align: center;
     }
-    
+
     .player-bar .main-controls {
         min-height: 3.5rem;
     }
@@ -187,11 +187,11 @@
         min-height: 3.5rem;
     }
 
-    .artist-name, 
+    .artist-name,
     .song-name {
         display: none;
     }
-    
+
     .artist-song-mobile {
         display: block;
     }
